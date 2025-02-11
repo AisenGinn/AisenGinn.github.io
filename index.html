@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changhe Chen - Personal Website</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
@@ -31,34 +32,47 @@
 
     <section id="publications">
         <h2>Publications</h2>
-        <ul>
-            <li><strong>CRITERIA: A New Benchmarking Paradigm to Evaluate Trajectory Prediction Approaches</strong><br>
-                IEEE ICRA 2024 | <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Dataset]</a></li>
-            <li><strong>Using Upsampling Conv-LSTM for Respiratory Sound Classification</strong><br>
-                TNS 2023 | <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Dataset]</a></li>
-            <li><strong>Learn TAROT with MENTOR: A Meta-Learned Approach for Trajectory Prediction</strong><br>
-                ICCV 2023 | <a href="#">[Paper]</a> <a href="#">[Dataset]</a></li>
-        </ul>
+        <div class="publication">
+            <img src="icra2024_cover.jpg" alt="ICRA 2024 Paper Cover">
+            <div>
+                <h3>CRITERIA: A New Benchmarking Paradigm to Evaluate Trajectory Prediction Approaches</h3>
+                <p><strong><span class="highlight">Changhe Chen</span>, Mozhgan Pourkeshavarz, Amir Rasouli</strong></p>
+                <p>IEEE International Conference on Robotics and Automation (ICRA), 2024</p>
+                <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Dataset]</a>
+            </div>
+        </div>
+        <div class="publication">
+            <img src="tns2023_cover.jpg" alt="TNS 2023 Paper Cover">
+            <div>
+                <h3>Using Upsampling Conv-LSTM for Respiratory Sound Classification</h3>
+                <p><strong><span class="highlight">Changhe Chen</span>, Rongbo Zhang</strong></p>
+                <p>Theoretical and Natural Science (TNS), 2023</p>
+                <a href="#">[Paper]</a> <a href="#">[Code]</a> <a href="#">[Dataset]</a>
+            </div>
+        </div>
+        <div class="publication">
+            <img src="iccv2023_cover.jpg" alt="ICCV 2023 Paper Cover">
+            <div>
+                <h3>Learn TAROT with MENTOR: A Meta-Learned Self-Supervised Approach for Trajectory Prediction</h3>
+                <p><strong>Mozhgan Pourkeshavarz, <span class="highlight">Changhe Chen</span>, Amir Rasouli</strong></p>
+                <p>The International Conference on Computer Vision (ICCV), 2023</p>
+                <a href="#">[Paper]</a> <a href="#">[Dataset]</a>
+            </div>
+        </div>
     </section>
 
     <section id="research">
         <h2>Research Experience</h2>
-        <p><strong>University of Michigan - HDR Lab</strong> | AI-Driven Robotic Structure Evaluation</p>
-        <p><strong>University of Michigan - MMint Lab</strong> | Robot Skill Learning via VLMs</p>
-        <p><strong>University of Toronto</strong> | RL Optimization for Low-Dropout Circuit Design</p>
-    </section>
-
-    <section id="work">
-        <h2>Work Experience</h2>
-        <p><strong>Huawei Technologies</strong> | Research Assistant (Jan 2022 - Dec 2022)</p>
-        <p>Contributed to the SMARTS multi-agent RL simulation platform and trajectory prediction models.</p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects & Leadership</h2>
-        <p><strong>Autonomous Vehicle Radar System</strong> | 1st Place in SAE Autodrive Challenge II</p>
-        <p><strong>IEEE BioCAS Challenge</strong> | ML-Based Respiratory Sound Classification</p>
-        <p><strong>Street Map Navigation System</strong> | C++ & OpenStreetMap API Implementation</p>
+        <div class="research">
+            <h3>AI-Driven Robotic Structure Evaluation (University of Michigan - HDR Lab)</h3>
+            <p>Developed a data generation pipeline in Evogym for evaluating robotic structures.</p>
+            <p>Utilized large language models (LLMs) to optimize robotic structures through AI insights.</p>
+        </div>
+        <div class="research">
+            <h3>Robot Skill Learning via Large-Scale Video Representation (University of Michigan - MMint Lab)</h3>
+            <p>Designed a robot task-learning system integrating multi-modal VLMs for improved task execution.</p>
+            <p>Implemented instruction-based semantic segmentation to enhance robot perception.</p>
+        </div>
     </section>
 
     <section id="skills">
@@ -78,4 +92,3 @@
     </footer>
 </body>
 </html>
-s
