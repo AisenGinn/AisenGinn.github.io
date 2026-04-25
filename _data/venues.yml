@@ -1,0 +1,33 @@
+"AJP":
+  url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"
+
+"PhysRev":
+  url: https://journals.aps.org/
+
+"Vision":
+  color: "#009f36"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  color: "#00629b"
+
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#7a0019"
+
+"RSS":
+  url: https://roboticsconference.org/
+  color: "#8f2d56"
+
+"RoboSoft":
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/robosoft
+  color: "#2a9d8f"
+
+"TNS":
+  url: https://www.ewadirect.com/proceedings/tns
+  color: "#3d5a80"

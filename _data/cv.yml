@@ -1,0 +1,139 @@
+cv:
+  name: Changhe Chen
+  label: Robotics Researcher
+  email: changhec@umich.edu
+  location: Ann Arbor, Michigan
+  image: ""
+  summary: Researcher focused on embodied AI, data-efficient robot learning, and learning from humans through multimodal perception and control.
+
+  social_networks:
+    - network: GitHub
+      username: AisenGinn
+
+  sections:
+    Education:
+      - institution: University of Michigan
+        location: Ann Arbor, Michigan, US
+        url: https://robotics.umich.edu/
+        area: Robotics
+        studyType: M.S.
+        start_date: 2024
+        end_date: Present
+        highlights:
+          - Advised by Prof. Nima Fazeli and Prof. Xiaonan (Sean) Huang.
+
+      - institution: University of Toronto
+        location: Toronto, Ontario, Canada
+        url: https://www.ece.utoronto.ca/
+        area: Electrical Engineering
+        studyType: BASc
+        end_date: 2024
+        highlights:
+          - Worked with Prof. Chan Carusone on reinforcement learning for analog circuit design.
+
+    Experience:
+      - company: Harvard University, Computational Robotics Group
+        position: Visiting Fellow
+        location: Cambridge, Massachusetts, US
+        url: https://computationalrobotics.seas.harvard.edu/
+        start_date: 2025
+        end_date: 2025
+        summary: Advised by Prof. Heng Yang.
+        highlights:
+          - Designed MoTVLA, a mixture-of-transformers framework that unifies generalist vision-language reasoning with fast motion decomposition for robotic manipulation.
+          - Developed diffusion-policy methods to improve language steerability and inference speed in robot skill learning.
+          - Explored scene graph-based visuomotor policies that combine GNNs and diffusion learning for long-horizon skill composition under visual distractors.
+
+      - company: University of Michigan, HDR Lab
+        position: Research Assistant
+        location: Ann Arbor, Michigan, US
+        start_date: 2024
+        end_date: Present
+        summary: AI-driven robotic structure evaluation with Prof. Xiaonan (Sean) Huang.
+        highlights:
+          - Developed an EvoGym data generation pipeline for evaluating robotic structures.
+          - Applied large language models to guide robotic structure optimization.
+          - Improved simulation workflows by combining structured data generation with AI-driven evaluation.
+
+      - company: University of Michigan, MMint Lab
+        position: Research Assistant
+        location: Ann Arbor, Michigan, US
+        start_date: 2024
+        end_date: Present
+        summary: Robot skill learning via large-scale video representation with Prof. Nima Fazeli.
+        highlights:
+          - Built a robot task-learning system integrating multimodal vision-language models.
+          - Implemented instruction-based semantic segmentation to improve robot perception and execution.
+          - Investigated latent-space clustering and phase transitions in long-horizon visual representations.
+
+      - company: Huawei Technologies, Noah's Ark Lab
+        position: Research Assistant
+        location: Toronto, Ontario, Canada
+        highlights:
+          - Upgraded the SMARTS multi-agent RL simulation platform and resolved more than 20 maintenance and improvement issues.
+          - Helped organize autonomous driving competitions built on SMARTS.
+          - Improved scene encoding for the Argoverse dataset with Deep Graph Library methods and achieved a substantial trajectory prediction gain.
+          - Proposed diversity and admissibility metrics for trajectory prediction and used them to benchmark representative models.
+
+    Publications:
+      - title: "MoTVLA: A Vision-Language-Action Model with Unified Fast-Slow Reasoning"
+        authors:
+          - Wenhui Huang
+          - Changhe Chen
+          - Han Qi
+          - Lv Chen
+          - Yilun Du
+          - Heng Yang
+        publisher: arXiv
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2510.18337
+        summary: Vision-language-action modeling with unified fast and slow reasoning for robotic manipulation.
+
+      - title: "ViSA-Flow: Accelerating Robot Skill Learning via Large-Scale Video Semantic Action Flow"
+        authors:
+          - Changhe Chen
+          - Quantao Yang
+          - Xiaohao Xu
+          - Nima Fazeli
+          - Olov Andersson
+        publisher: arXiv
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2505.01288
+        summary: Accelerates robot skill learning with large-scale semantic action flow from video.
+
+      - title: "CRITERIA: A New Benchmarking Paradigm to Evaluate Trajectory Prediction Approaches"
+        authors:
+          - Changhe Chen
+          - Mozhgan Pourkeshavarz
+          - Amir Rasouli
+        publisher: ICRA
+        releaseDate: 2024
+        url: https://arxiv.org/abs/2310.07794
+        summary: Introduces a new benchmarking framework for evaluating trajectory prediction methods.
+
+    Projects:
+      - name: aUToronto Autonomous Driving Team
+        summary: Designed radar-based autonomous vehicle systems for the SAE AutoDrive Challenge II team.
+        highlights:
+          - Contributed to the team that placed first in SAE AutoDrive Challenge II.
+
+      - name: IEEE BioCAS Grand Challenge
+        summary: Led a team building an ML-based respiratory sound classification model.
+        highlights:
+          - Reached 75 percent classification accuracy.
+
+      - name: Street Map Navigation System
+        summary: Led the development of a C++ navigation application using the OpenStreetMap API.
+        highlights:
+          - Built a responsive UI for interactive route planning.
+
+    Skills:
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: Python, PyTorch, TensorFlow, C/C++, MATLAB, Java, Verilog, ARM Assembly
+
+      - name: Robotics and ML Tools
+        level: Advanced
+        icon: fa-solid fa-robot
+        keywords: ROS1/2, DDPG, RGCN, SMARTS Simulation, Deep Graph Library
